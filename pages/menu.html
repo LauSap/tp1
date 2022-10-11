@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <style type="text/css">      
+        
+        * {
+            margin: 0;
+            padding: 0; 
+        }
+        
+        .contenedor {
+            background: url('../img/img01.jpg');
+            background-size: cover;
+            position: relative;        
+            text-align: center; 
+            height: 600px; 
+            width: 100%;   
+                    }
+            
+        .cuadrado {
+            width: 220px;
+            height: 450px;
+            background-color: rgb(255, 247, 240);
+            text-align: center;
+            margin-left: 40%;
+            margin-top: 5%;
+            border-radius: 25px;
+            background-color: rgb(160, 55, 119);
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+                   
+                        
+            } 
+        .contenedor iframe {             
+            width: 200px;
+            zoom: 100%;
+            height: 79%;  
+            position: relative;    
+            margin-top: 70px;
+            border-top: solid;
+            border-bottom-right-radius:  25px;
+            border-bottom-left-radius: 25px;
+            border-style: groove;             
+            border-color: aliceblue;
+            border-width: 4px;        
+                                           
+        }  
+             
+        
+        .title { 
+            color: aliceblue;
+            position: absolute;
+            transform: translateY(50%,50%);
+            top: 16%;
+            left: 46%;
+        }
+
+        .subtitle { 
+            color: aliceblue;
+            position: absolute;
+            transform: translateY(50%,50%);
+            top: 20%;
+            left: 45%;
+        }
+        
+        .button {
+            background : rgb(173, 80, 173);
+            color: white;
+            display: inline-block;
+            font-size: 1em;
+            margin: 0px;
+            text-align: center;
+            width: 100%;
+            text-decoration: none;
+            margin-top: 25px;   
+        }                     
+        .navbar {
+            list-style-type:none;
+                     
+           
+        }
+                   
+    </style>
+</head>
+<body>  
+       
+    <div class="contenedor">
+        <nav class="navbar">
+            <li><a href="../index.html">Home</a></li>            
+        </nav>       
+        <div class="cuadrado"> 
+        <iframe src="../img/video.mp4"allowfullscreem"" frameborder="0" height=""></iframe>
+            <div class="title">Title</div>
+        <div class="subtitle">Sub title</div>
+           </div>
+        <a href="../pages/menu.html" class="button">Video Play</a>    
+        
+   </div>          
+</body>
+ 
+</html>
